@@ -14,13 +14,16 @@ windows.geometry('1000x800')
 
 
 def incr():
-   pass
+   global count_num
+   count_num += 1
 
 def decr():
-    pass
+    global count_num
+    count_num -= 1
 
 def reset():
-    pass
+    global count_num
+    count_num = 0
 
 incre_btn = Button(windows,bg='white',height=10,width=15,text='increase' \
                     ,activebackground='yellow',activeforeground='red',relief=RIDGE,command=incr())
