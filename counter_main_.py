@@ -5,7 +5,7 @@ from tkinter import *
 
 windows = Tk()
 windows.geometry('1000x800')
-windows.title('deez nuts counter')
+windows.title('deez counter')
 
 
 count_num = 0
